@@ -36,11 +36,12 @@ cybersecurity-labs/
 └── README.md (this file)
 
 ## Quick Links
-- **Nmap Lab Documentation:** `/nmap/README.md`  
-- **Scapy Lab Documentation:** `/scapy/README.md`  
-- **Packet Captures:** `/packet-captures/ladies.pcap`
+-## Lab Sections
+-  [Nmap Lab Documentation](./nmap/README.md)
+-  [Scapy Lab Documentation](./scapy/README.md)
+- [Packet Captures](./packet-captures/ladies.pcap)
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 ✔ Host & network discovery  
 ✔ Port scanning and service version detection  
 ✔ OS fingerprinting  
