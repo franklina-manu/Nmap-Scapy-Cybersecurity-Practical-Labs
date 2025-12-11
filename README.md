@@ -37,7 +37,7 @@ cybersecurity-labs/
 
 ## Quick Links
 -## Lab Sections
--  [Nmap Lab Documentation](./nmap/README.md)
+-  [Nmap Lab Documentation](./nmapREADME.md)
 -  [Scapy Lab Documentation](./scapy/README.md)
 - [Packet Captures](./packet-captures/ladies.pcap)
 
