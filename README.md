@@ -28,7 +28,7 @@ cybersecurity-labs/
 └── README.md (this file)
 
 ## Quick Links
--## Lab Sections
+Lab Sections
 -  [Nmap Lab Documentation](./nmap/README.md)
 -  [Scapy Lab Documentation](./scapy/README.md)
 
