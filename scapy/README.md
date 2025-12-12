@@ -1,6 +1,5 @@
 
  1. Launch Scapy
-```bash
 sudo su
 scapy
 
