@@ -11,4 +11,4 @@ Purpose:
 Performs a ping sweep to identify active hosts in the subnet.
 
 Screenshot:
-![Host Discovery](host-discovery.png)
+![image](https://github.com/franklina-manu/Nmap-Scapy-Cybersecurity-Practical-Labs/blob/main/nmap/host-discovery.png?raw=true)
