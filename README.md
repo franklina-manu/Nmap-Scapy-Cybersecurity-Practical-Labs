@@ -20,12 +20,10 @@ cybersecurity-labs/
 │ ├── README.md
 │
 ├── scapy/
-│ ├── sniff-basic.png
+│ ├── ping google.com.png
 │ ├── interface-sniff.png
 │ ├── README.md
 │
-├── packet-captures/
-│ ├── ladies.pcap
 │
 └── README.md (this file)
 
@@ -33,7 +31,6 @@ cybersecurity-labs/
 -## Lab Sections
 -  [Nmap Lab Documentation](./nmap/README.md)
 -  [Scapy Lab Documentation](./scapy/README.md)
-- [Packet Captures](./packet-captures/ladies.pcap)
 
 ## Skills Demonstrated
 ✔ Host & network discovery  
