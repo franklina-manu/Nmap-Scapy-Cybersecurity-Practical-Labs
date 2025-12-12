@@ -9,6 +9,8 @@ sniff()
 
 --Generate traffic:
 ping google.com
+screenshot:
+![image] (https://github.com/franklina-manu/Nmap-Scapy-Cybersecurity-Practical-Labs/blob/main/scapy/interface-sniff.png?raw=true)
 
 --Stop sniffing:
 CTRL + C on both terminals
