@@ -16,26 +16,28 @@ Command:
 sudo nmap -O 10.6.6.23
 Purpose:
 Identifies operating system using stack fingerprinting.
+screenshot:
+![image] (https://github.com/franklina-manu/Nmap-Scapy-Cybersecurity-Practical-Labs/blob/main/nmap/OS%20fingerprinting.png?raw=true)
 
-3. Service Detection + Aggressive Scan
+4. Service Detection + Aggressive Scan
 Command:
 nmap -p21 -sV -A -T4 10.6.6.23
 Purpose:
 Detects services, versions, OS, traceroute, and runs scripts.
 
-4. SMB Ports Scan
+5. SMB Ports Scan
 Command:
 nmap -A p139, p445 10.6.6.23
 Purpose:
 Scans SMB services on ports 139 and 445.
 
-5. SMB Shares Enumeration
+6. SMB Shares Enumeration
 Command:
 nmap --script smb-enum-shares.nse -p445 10.6.6.23
 Purpose:
 Lists accessible SMB shares.
 
-6. Manual Connection to SMB
+7. Manual Connection to SMB
 smbclient //10.6.6.23/print$ -N
 exit
 
