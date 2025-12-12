@@ -24,20 +24,22 @@ Command:
 nmap -p21 -sV -A -T4 10.6.6.23
 Purpose:
 Detects services, versions, OS, traceroute, and runs scripts.
+screenshot:
+![image] (https://github.com/franklina-manu/Nmap-Scapy-Cybersecurity-Practical-Labs/blob/main/nmap/service%20detection.png?raw=true)
 
-5. SMB Ports Scan
+6. SMB Ports Scan
 Command:
 nmap -A p139, p445 10.6.6.23
 Purpose:
 Scans SMB services on ports 139 and 445.
 
-6. SMB Shares Enumeration
+7. SMB Shares Enumeration
 Command:
 nmap --script smb-enum-shares.nse -p445 10.6.6.23
 Purpose:
 Lists accessible SMB shares.
 
-7. Manual Connection to SMB
+8. Manual Connection to SMB
 smbclient //10.6.6.23/print$ -N
 exit
 
