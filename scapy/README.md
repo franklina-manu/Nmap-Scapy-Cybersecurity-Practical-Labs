@@ -14,12 +14,10 @@ screenshot:
 
 --Stop sniffing:
 CTRL + C on both terminals
-
 --Save results:
 paro = _
 paro.summary()
-Screenshot:
-/screenshots/sniff-basic.png
+
 
 3. Interface-Specific Sniffing
 sniff(iface="br-internal")
@@ -30,7 +28,7 @@ Open browser → http://10.6.6.23
 paro2 = _
 paro2.summary()
 Screenshot:
-/screenshots/interface-sniff.png
+![image](https://github.com/franklina-manu/Nmap-Scapy-Cybersecurity-Practical-Labs/blob/main/scapy/ping%20google.com.png?raw=true)
 
 4. ICMP-Only Sniffing
 sniff(iface="br-internal", filter="icmp", count=5)
