@@ -14,20 +14,14 @@ and protocol analysis.
 cybersecurity-labs/
 │
 ├── nmap/
-│ ├── screenshots/
-│ │ ├── host-discovery.png
-│ │ ├── os-fingerprint.png
-│ │ ├── service-detection.png
-│ │ ├── smb-scan.png
-│ ├── nmap_results.txt
+│ ├── host-discovery.png
+│ ├── os-fingerprint.png
+│ ├── service-detection.png
 │ ├── README.md
 │
 ├── scapy/
-│ ├── screenshots/
-│ │ ├── sniff-basic.png
-│ │ ├── sniff-icmp.png
-│ │ ├── interface-sniff.png
-│ ├── scapy_output.txt
+│ ├── sniff-basic.png
+│ ├── interface-sniff.png
 │ ├── README.md
 │
 ├── packet-captures/
